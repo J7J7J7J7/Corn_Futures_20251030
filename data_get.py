@@ -9,7 +9,7 @@ import os
 # -----------------------------
 # 1. 初始化 Tushare
 # -----------------------------
-ts.set_token('3acaaa7a6d2096440993ab84701b7c1267d86ca2dde1f3964d118b3c')  # 替换为你的token
+ts.set_token('Token')  # 替换为你的token
 pro = ts.pro_api()
 
 # -----------------------------
