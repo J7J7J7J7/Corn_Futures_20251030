@@ -2,7 +2,7 @@ import tushare as ts
 import pandas as pd
 
 # 初始化
-pro = ts.pro_api('3acaaa7a6d2096440993ab84701b7c1267d86ca2dde1f3964d118b3c')
+pro = ts.pro_api('Token')
 
 # 获取大连商品交易所玉米合约信息
 df_contracts = pro.fut_basic(exchange='DCE', fut_type='1')  # '1' 表示商品期货
